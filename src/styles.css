@@ -1,0 +1,47 @@
+:root {
+  /* --theme-color: darkred; */
+  --theme-color: #012060;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+  background-color: var(--theme-color);
+  color: white;
+  text-align: center;
+}
+
+.output {
+  margin: 20px;
+  text-align: left;
+}
+
+input {
+  border: none;
+  font-size: 16px;
+  min-width: 400px;
+  text-align: center;
+  color: var(--theme-color);
+  margin: 10px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+button {
+  border: none;
+  min-width: 130px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 16px;
+  padding: 6px 12px;
+  color: var(--theme-color);
+  background: white;
+  border-radius: 5px;
+}
+
+button.disabled {
+  background: gray;
+  cursor: not-allowed;
+}
